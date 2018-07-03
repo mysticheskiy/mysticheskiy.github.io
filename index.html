@@ -7,22 +7,48 @@
 	<link rel="stylesheet" href="libs/reset.css" />
 	<link rel="stylesheet" href="libs/960_12_col.css" />
 	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="libs/flipclock/flipclock.css" />
 </head>
 <body>
 
-	<div class="clock"></div>
-	<div class="message"></div>
+	<script type="js/countdown.js"></script>
+	<script type="js/countdown_config.js"></script>
 
 	<section class="top_banner">	
 
 	</section>
 	<script src="libs/jquery-3.3.1.min.js" type="text/javascript"></script>
 	<script src="libs/jquery.jcarousel.min.js" type="text/javascript"></script>
-	<script src="libs/flipclock/flipclock.min.js" type="text/javascript"></script>
 	<script src="js/common.js" type="text/javascript"></script>
 	<script src="libs/html5shiv.min.js" type="text/javascript"></script>
-	
+
+	<h2 style="text-align: center;">WATCH THE TIME:</h2>
+    
+    <div style="position: relative;">
+      <div id="countdown_dashboard">
+        <div class="dash weeks_dash" style="display: none"> <span class="dash_title">недель</span>
+          <div class="digit">0</div>
+          <div class="digit">0</div>
+        </div>
+        <div class="dash days_dash"> <span class="dash_title">дней</span>
+          <div class="digit">0</div>
+          <div class="digit">0</div>
+        </div>
+        <div class="dash hours_dash"> <span class="dash_title">часов</span>
+          <div class="digit">0</div>
+          <div class="digit">0</div>
+        </div>
+        <div class="dash minutes_dash"> <span class="dash_title">минут</span>
+          <div class="digit">0</div>
+          <div class="digit">0</div>
+        </div>
+        <div class="dash seconds_dash"> <span class="dash_title">секунд</span>
+          <div class="digit">0</div>
+          <div class="digit">0</div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
 </body>
 <audio src="sound.mp3" autoplay loop></audio>
 </html>
