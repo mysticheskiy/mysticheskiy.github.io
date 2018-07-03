@@ -10,14 +10,14 @@ $(document).ready(function() {
 			}
 		}
 	});
+
+	var dt = "October 31 2018 15:00:00";
+	var first = new Date(dt);
+	var lasr = Date.now();
+	var remaining = first - last;
+	remaining /=1000
+
+	clock.setTime(remaining);
+	clock.setCountdown(true);
+	clock.start();
 });
-
-var dt = "10 23 2018 15:00:00";
-var first = new Date(dt);
-var lasr = Date.now();
-var remaining = first - last;
-remaining /=1000
-
-clock.setTime(remaining);
-clock.setCountdown(true);
-clock.start();
