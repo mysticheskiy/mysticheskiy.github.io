@@ -1,4 +1,4 @@
-#countdown_dashboard, #countdown_dashboard2, #countdown_dashboard3 {
+#countdown_dashboard {
 	width: 545px;
 	margin: 0 auto;
 	height: 110px;
@@ -22,7 +22,7 @@
 	padding-top: 15px;
 	text-align: center;
 	font-family: Tahoma, Geneva, sans-serif;
-	color: #555;
+	color: #ff0000;
 	position: relative;
 }
 
@@ -32,7 +32,7 @@
 	bottom: 0px;
 	right: 6px;
 	font-size: 9pt;
-	color: #555;
+	color: #ff0000;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
